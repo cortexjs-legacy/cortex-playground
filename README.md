@@ -11,7 +11,19 @@ $ npm install cortex-playground --save
 ## Usage
 
 ```js
-var cortex_playground = require('cortex-playground');
+var playground = require('cortex-playground');
+```
+
+### playground.create()
+
+Returns `path` a temporarily directory that contains all resources and nice toys which you will enjoy!
+
+## Available Reources.
+
+```
+path/
+   |-- <feature>/
+               |-- something 
 ```
 
 ## Licence
