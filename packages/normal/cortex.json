@@ -19,6 +19,10 @@
   "engines": {
     "neuron": "*"
   },
+  "css": "style.css",
+  "directories": {
+    "src": "src"
+  },
   "devDependencies": {
     "assert": "*"
   }
