@@ -74,6 +74,9 @@ Returns `path`
 
 > As well as available resources.
 
+- normal: a common cases
+- css-not-found: an error case, `pkg.css` defined but not found
+- dir-not-found: an error case, `directories.xxx` defined but not found
 
 
 ## License
