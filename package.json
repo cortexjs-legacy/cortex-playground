@@ -1,6 +1,6 @@
 {
   "name": "cortex-playground",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "cortex-playground",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "cortex-playground"
   ],
-  "engines": { 
+  "engines": {
     "node": ">=0.11.0"
   },
   "author": "kael",
@@ -24,5 +24,8 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*"
+  },
+  "dependencies": {
+    "test-fixture": "~1.0.0"
   }
 }
