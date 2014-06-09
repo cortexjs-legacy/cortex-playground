@@ -54,8 +54,9 @@ packages('a'); // -> use package `'a'`
 packages('a', 'lib'); // -> use the `lib` folder of package `'a'`
 ```
 
-### .copy(callback)
+### .copy([to], callback)
 
+- to `path=` the destination folder where test fixtures will be copied into. If not specified, they will be copied into a temp folder. 
 - callback `function(err, dir)`
 - dir `path` a temporarily directory that contains all resources and nice toys which you will enjoy!
 
