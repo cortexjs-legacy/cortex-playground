@@ -1,0 +1,25 @@
+{
+  "name": "simplest",
+  "version": "0.1.0",
+  "description": "The coolest cortex module.",
+  "main": "index.js",
+  "repository": "git://github.com/cortexjs/cortex-playground.git",
+  "keywords": [
+    "normal"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "kael",
+    "email": "i@kael.me"
+  },
+  "bugs": {
+    "url": "http://github.com/cortexjs/cortex-playground/issues"
+  },
+  "homepage": "http://github.com/cortexjs/cortex-playground",
+  "engines": {
+    "neuron": "*"
+  },
+  "devDependencies": {
+    "assert": "*"
+  }
+}
