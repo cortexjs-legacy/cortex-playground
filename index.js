@@ -5,6 +5,7 @@ var Fixtures = require('test-fixture').Fixtures;
 var playground = exports;
 playground.packages = packages;
 playground.resources = resources;
+playground.cached_resources = cached_resources;
 
 function packages () {
   return new Base(arguments, 'packages');
@@ -12,6 +13,10 @@ function packages () {
 
 function resources () {
   return new Base(arguments, 'resources');
+}
+
+function cached_resources () {
+  return new Base(arguments, 'cached_resources');
 }
 
 var util = require('util');

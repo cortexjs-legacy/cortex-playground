@@ -1,0 +1,9 @@
+{
+  "name": "mbox",
+  "version": "1.0.1",
+  "css": ["mbox.css"],
+  "dependencies": {
+    "underscore": "~0.1.0",
+    "vegeta": "~0.1.0"
+  }
+}

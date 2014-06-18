@@ -1,6 +1,6 @@
 {
   "name": "cortex-playground",
-  "version": "0.1.9",
+  "version": "0.2.9",
   "description": "Collections of test fixtures for cortex.",
   "main": "index.js",
   "scripts": {
