@@ -1,0 +1,16 @@
+{
+  "name": "with-shrinkwrap",
+  "version": "0.1.0",
+  "dependencies": {
+    "with-js-modified-added-changed": {
+      "from": "~0.2.0",
+      "version": "0.2.0",
+      "dependencies": {
+        "with-css-changed": {
+          "from": "~0.0.1",
+          "version": "0.0.1"
+        }
+      }
+    }
+  }
+}
